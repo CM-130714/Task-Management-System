@@ -1,0 +1,65 @@
+/* TaskFilter Component Styles */
+
+/* Container for the filter section */
+.task-filter {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  /* Label styling for both select fields */
+  .task-filter label {
+    font-size: 1rem;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  /* Styling for the select dropdown */
+  .task-filter select {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    width: 150px;
+  }
+  
+  /* Styling for each option in the select dropdown */
+  .task-filter select:focus {
+    outline: none;
+    border-color: #6bb8f0;
+  }
+  
+  /* Container for the filter fields to align them */
+  .task-filter div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+  }
+  
+  /* Flexbox for form layout */
+  .task-filter div select {
+    width: 180px;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 768px) {
+    .task-filter {
+      padding: 15px;
+    }
+  
+    .task-filter div {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .task-filter select {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  

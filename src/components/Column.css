@@ -1,0 +1,76 @@
+/* Column Container */
+.column-container {
+    width: 300px;
+    min-height: 400px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; /* Space between columns */
+    transition: background-color 0.3s ease;
+  }
+  
+  .column-container:hover {
+    background-color: #e0e0e0; /* Light hover effect */
+  }
+  
+  /* Column Header */
+  .column-container h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    padding: 10px;
+    background-color: #2d87f0; /* Header background color */
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Droppable Area for Tasks */
+  .droppable-area {
+    min-height: 200px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Placeholder for Droppable (When tasks are being dragged) */
+  .droppable-placeholder {
+    background-color: #ccc;
+    height: 50px;
+    border-radius: 8px;
+    margin: 5px 0;
+  }
+  
+  /* Task Styles */
+  .task {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .task:hover {
+    background-color: #e3f2fd;
+  }
+  
+  /* Task Title */
+  .task h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .task p {
+    color: #777;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  

@@ -1,0 +1,74 @@
+/* Board Container */
+.board-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  /* Column Container */
+  .column {
+    width: 300px;
+    min-height: 500px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Column Header */
+  .column h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Task List Container */
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    flex-grow: 1;
+  }
+  
+  /* Individual Task Style */
+  .task-item {
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .task-item:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Task Item Title */
+  .task-item h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Task Item Priority */
+  .task-item .priority {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 5px;
+    text-transform: capitalize;
+  }
+  
+  /* Task Item Status */
+  .task-item .status {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-top: 5px;
+  }
+  
