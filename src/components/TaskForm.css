@@ -2,87 +2,82 @@
 
 /* Container for the task form */
 .task-form {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* Heading for the form */
+.task-form h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.task-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Label styling */
+.task-form label {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Input and Select field styling */
+.task-form input,
+.task-form select {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+.task-form input:focus,
+.task-form select:focus {
+  outline: none;
+  border-color: #6bb8f0;
+}
+
+/* Button styling */
+.task-form button {
+  padding: 10px 15px;
+  background-color: #201dff;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .task-form {
+    padding: 15px;
   }
-  
-  /* Heading for the form */
+
   .task-form h2 {
-    text-align: center;
-    font-size: 1.8rem;
-    color: #333;
-    margin-bottom: 20px;
+    font-size: 1.5rem;
   }
-  
-  /* Form styling */
-  .task-form form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  /* Label styling */
-  .task-form label {
-    font-size: 1rem;
-    color: #333;
-  }
-  
-  /* Input and Select field styling */
+
   .task-form input,
   .task-form select {
-    padding: 10px;
-    font-size: 1rem;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    width: 100%;
+    font-size: 0.9rem;
+    padding: 8px;
   }
-  
-  .task-form input:focus,
-  .task-form select:focus {
-    outline: none;
-    border-color: #6bb8f0;
-  }
-  
-  /* Button styling */
+
   .task-form button {
-    padding: 10px 15px;
-    background-color: #6bb8f0;
-    color: white;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 100%;
+    font-size: 0.9rem;
+    padding: 8px 12px;
   }
-  
-  .task-form button:hover {
-    background-color: #5696d9;
-  }
-  
-  /* Responsive styling for smaller screens */
-  @media (max-width: 768px) {
-    .task-form {
-      padding: 15px;
-    }
-  
-    .task-form h2 {
-      font-size: 1.5rem;
-    }
-  
-    .task-form input,
-    .task-form select {
-      font-size: 0.9rem;
-      padding: 8px;
-    }
-  
-    .task-form button {
-      font-size: 0.9rem;
-      padding: 8px 12px;
-    }
-  }
-  
+}

@@ -1,8 +1,9 @@
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid'; // Correctly importing uuidv4
 import "./TaskForm.css"
 
+// eslint-disable-next-line react/prop-types
 const TaskForm = ({ addTask }) => {
   const [title, setTitle] = useState('');
   const [priority, setPriority] = useState('medium');

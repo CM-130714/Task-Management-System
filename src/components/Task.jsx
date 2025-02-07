@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable react/prop-types */
 import { Draggable } from 'react-beautiful-dnd';
 
 const Task = ({ task, index }) => (

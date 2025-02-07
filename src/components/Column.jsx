@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable react/prop-types */
 import Task from './Task';
 import { Droppable } from 'react-beautiful-dnd';
 import "./Column.css"
